@@ -28,3 +28,13 @@ What to flag:
 - Services executing from user-writable locations
 - Unknown vendors / suspicious paths
 - SYSTEM services pointing to non-standard binaries
+---
+
+## Conclusion
+
+If:
+- No suspicious startup entries exist  
+- Scheduled tasks are legitimate  
+- Services point to known vendor binaries  
+
+Then persistence risk is considered **low** in initial triage.
