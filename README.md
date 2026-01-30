@@ -1,4 +1,4 @@
- KVKK / GDPR Incident Response Kit
+# KVKK / GDPR Incident Response Kit
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![IR Kit](https://img.shields.io/badge/Incident_Response-Operational-orange.svg)]
@@ -7,22 +7,23 @@
 
 **Panik yok. Protokol var.**
 
-Bu repo, veri ihlali ve siber olay durumlarında ilk müdahale, delil koruma ve raporlama süreçlerini standartlaştırmak için hazırlanmış operasyonel bir kittir.
+Bu repo, veri ihlali ve siber olay durumlarında ilk müdahale, delil koruma  
+ve raporlama süreçlerini standartlaştırmak için hazırlanmış operasyonel bir kittir.
 
 ---
 
- 🚨 Ne İşe Yarar?
+## 🚨 Ne İşe Yarar?
 
-- İlk 60 dakika kriz kontrolü
-- 72 saatlik KVKK/GDPR bildirim süreci
-- Olay raporu ve yönetici özeti şablonları
-- Delil toplama scriptleri (Windows & Linux)
-- Wazuh / ELK tespit sorguları
-- Demo olay senaryosu
+- İlk 60 dakika kriz kontrolü  
+- 72 saatlik KVKK/GDPR bildirim süreci  
+- Olay raporu ve yönetici özeti şablonları  
+- Delil toplama scriptleri (Windows & Linux)  
+- Wazuh / ELK tespit sorguları  
+- Demo olay senaryosu  
 
 ---
 
- 📂 İçerik Yapısı
+## 📂 İçerik Yapısı
 
 | Klasör | Açıklama |
 |--------|----------|
@@ -34,16 +35,20 @@ Bu repo, veri ihlali ve siber olay durumlarında ilk müdahale, delil koruma ve 
 
 ---
 
- 🎯 Amaç
+## 🎯 Amaç
 
 Kriz anında:
-- Panik yerine protokol
-- Rastgelelik yerine süreç
-- Veri kaybı yerine delil koruma
+
+- Panik yerine protokol  
+- Rastgelelik yerine süreç  
+- Veri kaybı yerine delil koruma  
 
 ---
+
 - 🚀 Latest Release: **v1.0**
 
- 📜 Lisans
+---
+
+## 📜 Lisans
 
 MIT License
