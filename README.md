@@ -1,25 +1,48 @@
 # KVKK / GDPR Incident Response Kit
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Markdown](https://img.shields.io/badge/markdown-ready-brightgreen.svg)](#)
-[![Incident Response](https://img.shields.io/badge/IR-playbooks-orange.svg)](#)
-[![KVKK](https://img.shields.io/badge/KVKK-templates-purple.svg)](#)
+[![IR Kit](https://img.shields.io/badge/Incident_Response-Operational-orange.svg)](#)
+[![KVKK](https://img.shields.io/badge/KVKK-Ready-purple.svg)](#)
+[![SOC](https://img.shields.io/badge/SOC-Support-green.svg)](#)
 
-**Panik yok. Protokol var.**  
-Bu repo, veri ihlali ve siber olaylarda ilk 60 dakika, 72 saat ve sonrası için **operasyonel playbook + şablon + script** setidir.
+**Panik yok. Protokol var.**
 
-## Quick Links
-- 🇹🇷 Türkçe: **[README_TR.md](README_TR.md)**
-- 🇬🇧 English: **[README_EN.md](README_EN.md)**
+Bu repo, veri ihlali ve siber olay durumlarında ilk müdahale, delil koruma ve raporlama süreçlerini standartlaştırmak için hazırlanmış operasyonel bir kittir.
 
-## What's Inside
-- Playbooks (Ransomware, Data Leak, Phishing/BEC, Insider, Vendor Breach)
-- First 60 minutes checklist
-- KVKK notification draft template
-- Incident report + Executive summary templates
-- Evidence collection scripts (Windows / Linux)
-- Wazuh & ELK detection query notes
-- Demo scenario walkthrough
+---
 
-## License
-MIT — see **[LICENSE](LICENSE)**.
+## 🚨 Ne İşe Yarar?
+
+- İlk 60 dakika kriz kontrolü
+- 72 saatlik KVKK/GDPR bildirim süreci
+- Olay raporu ve yönetici özeti şablonları
+- Delil toplama scriptleri (Windows & Linux)
+- Wazuh / ELK tespit sorguları
+- Demo olay senaryosu
+
+---
+
+## 📂 İçerik Yapısı
+
+| Klasör | Açıklama |
+|--------|----------|
+| docs | Rehberler ve senaryolar |
+| playbooks | Olay türüne göre müdahale planları |
+| templates | Rapor ve bildirim şablonları |
+| scripts | Delil toplama araçları |
+| queries | SIEM tespit notları |
+
+---
+
+## 🎯 Amaç
+
+Kriz anında:
+- Panik yerine protokol
+- Rastgelelik yerine süreç
+- Veri kaybı yerine delil koruma
+
+---
+
+## 📜 Lisans
+
+MIT License
