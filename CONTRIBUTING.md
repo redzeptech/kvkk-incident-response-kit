@@ -1,18 +1,23 @@
-# Contributing
+# Contributing Guide
 
-Thanks for considering contributing!
+Thank you for your interest in contributing.
 
-## How to contribute
-- Fix typos / improve clarity in docs
-- Add new playbooks (keep the same structure)
-- Improve scripts (keep them safe & minimal)
-- Add detection notes for Wazuh/ELK
+## How You Can Help
 
-## Guidelines
-- Keep templates generic and reusable
-- Avoid including sensitive/real customer data
-- Prefer clear, actionable steps over long theory
+- Improve clarity in documentation
+- Add new incident playbooks
+- Enhance scripts
+- Add detection queries (Wazuh, ELK)
+
+## Contribution Rules
+
+- Keep content generic and reusable
+- Do not include real customer data
+- Focus on actionable steps, not theory
+- Maintain professional language
 
 ## Pull Requests
-- Describe the problem and the change
-- Mention impacted files/sections
+
+- Describe what you changed
+- Mention affected files
+- Keep commits focused
