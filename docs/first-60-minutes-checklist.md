@@ -1,49 +1,90 @@
 # First 60 Minutes Incident Response Checklist
 
-Bir veri ihlali veya siber olay tespit edildiğinde ilk 60 dakika kritik öneme sahiptir. Amaç paniği değil, kontrolü sağlamaktır.
+The first hour of an incident is critical. Actions taken here determine evidence quality, impact scope, and recovery success.
+
+**Goal:** Stabilize, preserve, assess.
 
 ---
 
-## 0–15 Dakika | DURUMU SABİTLE
+## ⏱️ Minute 0–10: Initial Awareness
 
-- [ ] Olayı ilk fark eden kişi zamanı not alır
-- [ ] SOC / IT güvenlik ekibi bilgilendirilir
-- [ ] Etkilenen sistemler ağdan izole edilir (kapatma değil, bağlantı kesme)
-- [ ] Logların üzerine yazılmasını engellemek için kayıtlar korunur
-- [ ] Olay müdahale lideri atanır
-
----
-
-## 15–30 Dakika | YAYILIMI DURDUR
-
-- [ ] Kullanıcı hesapları kontrol edilir (şüpheli oturumlar)
-- [ ] Yönetici hesapları resetlenir (gerekirse)
-- [ ] Yedekleme sistemlerinin durumu kontrol edilir
-- [ ] Şüpheli dosya veya süreçler kaydedilir (silinmez)
+- [ ] Identify who detected the issue
+- [ ] Record timestamp of detection
+- [ ] Do **not** power off affected systems
+- [ ] Notify incident response lead
+- [ ] Start incident log (who, what, when)
 
 ---
 
-## 30–45 Dakika | DELİL KORUMA
+## 🧠 Minute 10–20: Containment (Light)
 
-- [ ] RAM dump alınır (mümkünse)
-- [ ] Disk imajı planlanır
-- [ ] Firewall / EDR / SIEM logları yedeklenir
-- [ ] Saat senkronizasyonu kontrol edilir
-
----
-
-## 45–60 Dakika | İLETİŞİM VE KONTROL
-
-- [ ] Üst yönetim bilgilendirilir (teknik değil, durum özeti)
-- [ ] Hukuk / KVKK sorumlusu haberdar edilir
-- [ ] Olay günlüğü tutulmaya başlanır
-- [ ] Harici bildirim yapılmaz (henüz doğrulama aşaması)
+- [ ] Isolate affected system from network (if active threat)
+- [ ] Do not delete files or close suspicious apps
+- [ ] Take screenshots if ransomware or visible message present
+- [ ] Identify affected user accounts
 
 ---
 
-## AMAÇ
+## 💾 Minute 20–30: Evidence Preservation
 
-Bu aşamada amaç:
-- Krizi büyütmemek
-- Delil kaybetmemek
-- Yanlış müdahale yapmamak
+- [ ] Run artefact collection script
+- [ ] Export:
+  - Security log
+  - System log
+  - Application log
+- [ ] Record system time and timezone
+- [ ] Note active network connections
+
+---
+
+## 🌐 Minute 30–40: Scope Assessment
+
+- [ ] Is it one machine or multiple?
+- [ ] Check if domain accounts are involved
+- [ ] Identify possible entry vector:
+  - Phishing
+  - RDP
+  - Web service
+  - USB
+
+---
+
+## 🛡️ Minute 40–50: Risk Evaluation
+
+- [ ] Sensitive data involved?
+- [ ] Is malware still active?
+- [ ] Is data exfiltration suspected?
+- [ ] Any lateral movement signs?
+
+---
+
+## 📣 Minute 50–60: Decision & Escalation
+
+- [ ] Determine if escalation to management required
+- [ ] Consider regulatory reporting (KVKK / GDPR)
+- [ ] Prepare short executive summary:
+  - What happened
+  - What we know
+  - What we are doing
+- [ ] Preserve evidence before remediation
+
+---
+
+## 🚫 Common Mistakes to Avoid
+
+- Turning off the system too early
+- Running antivirus scans before collecting evidence
+- Deleting suspicious files
+- Communicating unverified assumptions
+
+---
+
+## 🎯 Outcome of First Hour
+
+By minute 60, you should have:
+
+- Evidence preserved
+- Scope roughly identified
+- Threat contained (if active)
+- Management informed
+- Next steps planned
