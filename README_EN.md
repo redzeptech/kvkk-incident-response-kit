@@ -1,28 +1,30 @@
 # KVKK / GDPR Incident Response Kit
 
-This repository provides an operational incident response toolkit to help organizations manage cyber incidents and data breaches in a structured and controlled way.
+**No panic. Follow protocol.**
 
-## 🚨 Quick Start
-
-1. Manage the first 60 minutes → `docs/first-60-minutes-checklist.md`
-2. Select an incident playbook → `playbooks/`
-3. Collect artefacts → `scripts/`
-4. Prepare executive summary → `templates/executive-brief.md`
-5. Complete incident report → `templates/incident-report.md`
-6. Draft notification → `templates/kvkk-notification-draft.md`
+This repository provides an operational toolkit for first response,  
+evidence preservation, and reporting standardization during data breaches  
+and cyber incidents.
 
 ---
 
-## 🎯 Purpose
+## 🚨 What Does It Do?
 
-- Replace panic with protocol
-- Preserve evidence
-- Accelerate regulatory notification process
-- Standardize incident response actions
+- First 60 minutes crisis control  
+- 72-hour KVKK/GDPR notification support  
+- Incident report and executive summary templates  
+- Evidence collection scripts (Windows & Linux)  
+- Wazuh / ELK detection queries  
+- Demo incident scenario  
 
 ---
 
-## ⚠️ Disclaimer
+## 📂 Structure
 
-This repository does not provide legal advice. It is an operational response framework.
-
+| Folder | Description |
+|--------|-------------|
+| docs | Guides and scenarios |
+| playbooks | Incident-type response plans |
+| templates | Reporting and notification templates |
+| scripts | Evidence collection tools |
+| queries | SIEM detection notes |
