@@ -1,24 +1,27 @@
-# KVKK / GDPR Olay Müdahale Kiti (TR)
+# KVKK / GDPR Olay Müdahale Kiti
 
-Bu repo, kurumların veri ihlali veya siber olay anında **soğukkanlı, ölçülü ve belgeli** şekilde hareket etmesi için hazırlanmış bir “operasyon kutusu”dur.
+Bu repo, veri ihlali ve siber olay durumlarında kurumların ilk müdahale süreçlerini düzenli ve belgeli şekilde yürütmesini sağlamak için hazırlanmıştır.
 
-## Hızlı Başlangıç
-1) **docs/first-60-minutes-checklist.md** ile ilk 60 dakikayı yönet  
-2) Uygun playbook’u seç: **playbooks/**  
-3) Delil toplama: **scripts/**  
-4) Yönetim özeti: **templates/executive-brief.md**  
-5) Olay raporu: **templates/incident-report.md**  
-6) KVKK taslağı: **templates/kvkk-notification-draft.md**
+## 🚨 Hızlı Başlangıç
 
-## Yapı
-- **docs/**: rehberler + demo senaryo  
-- **playbooks/**: olay türüne göre adım adım müdahale  
-- **templates/**: raporlar ve bildirim taslakları  
-- **scripts/**: hızlı artefact/delil toplama  
-- **queries/**: Wazuh/ELK notları
+1. İlk 60 dakikayı yönet → `docs/first-60-minutes-checklist.md`
+2. Olay türüne göre playbook seç → `playbooks/`
+3. Delil toplama → `scripts/`
+4. Yönetici özeti → `templates/executive-brief.md`
+5. Olay raporu → `templates/incident-report.md`
+6. KVKK bildirim taslağı → `templates/kvkk-notification-draft.md`
 
-## Kapsam
-Bu repo bir hukuk danışmanlığı değildir. Amaç: operasyonu standardize etmek, delil kaybını azaltmak ve kriz yönetimini hızlandırmaktır.
+---
 
-## Lisans
-MIT — **LICENSE** dosyasına bak.
+## 🎯 Hedef
+
+- Kriz anında panik yerine süreç
+- Delil kaybını önlemek
+- Yasal bildirim sürecini hızlandırmak
+- Kurumsal müdahale standardı oluşturmak
+
+---
+
+## ⚠️ Not
+
+Bu repo hukuk danışmanlığı değildir. Operasyonel standart ve süreç rehberidir.
