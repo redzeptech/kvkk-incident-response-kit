@@ -14,7 +14,7 @@ Write-Host "Collecting network connections..."
 netstat -ano > "$dest\netstat.txt"
 
 Write-Host "Collecting logged in users..."
-query user > "$dest\loggedin_users.txt"
+qwinsta > "$dest\loggedin_users.txt"
 
 Write-Host "Exporting event logs..."
 wevtutil epl Security "$dest\Security.evtx"
