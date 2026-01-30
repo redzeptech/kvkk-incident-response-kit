@@ -1,9 +1,9 @@
-# KVKK / GDPR Incident Response Kit
+ KVKK / GDPR Incident Response Kit
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![IR Kit](https://img.shields.io/badge/Incident_Response-Operational-orange.svg)](#)
-[![KVKK](https://img.shields.io/badge/KVKK-Ready-purple.svg)](#)
-[![SOC](https://img.shields.io/badge/SOC-Support-green.svg)](#)
+[![IR Kit](https://img.shields.io/badge/Incident_Response-Operational-orange.svg)]
+[![KVKK](https://img.shields.io/badge/KVKK-Ready-purple.svg)]
+[![SOC](https://img.shields.io/badge/SOC-Support-green.svg)]
 
 **Panik yok. Protokol var.**
 
@@ -11,7 +11,7 @@ Bu repo, veri ihlali ve siber olay durumlarında ilk müdahale, delil koruma ve 
 
 ---
 
-## 🚨 Ne İşe Yarar?
+ 🚨 Ne İşe Yarar?
 
 - İlk 60 dakika kriz kontrolü
 - 72 saatlik KVKK/GDPR bildirim süreci
@@ -22,7 +22,7 @@ Bu repo, veri ihlali ve siber olay durumlarında ilk müdahale, delil koruma ve 
 
 ---
 
-## 📂 İçerik Yapısı
+ 📂 İçerik Yapısı
 
 | Klasör | Açıklama |
 |--------|----------|
@@ -34,7 +34,7 @@ Bu repo, veri ihlali ve siber olay durumlarında ilk müdahale, delil koruma ve 
 
 ---
 
-## 🎯 Amaç
+ 🎯 Amaç
 
 Kriz anında:
 - Panik yerine protokol
@@ -44,6 +44,6 @@ Kriz anında:
 ---
 - 🚀 Latest Release: **v1.0**
 
-## 📜 Lisans
+ 📜 Lisans
 
 MIT License
