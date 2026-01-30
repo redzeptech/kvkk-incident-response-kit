@@ -42,6 +42,7 @@ Kriz anında:
 - Veri kaybı yerine delil koruma
 
 ---
+- 🚀 Latest Release: **v1.0**
 
 ## 📜 Lisans
 
