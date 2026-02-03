@@ -1,3 +1,6 @@
+
+<img width="1024" height="1024" alt="KVKK Kit" src="https://github.com/user-attachments/assets/2782610f-00ea-4942-9dc1-4c366ba4f12c" />
+
 # KVKK / GDPR Incident Response Kit
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
